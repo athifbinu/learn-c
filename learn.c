@@ -27,4 +27,23 @@
 
 
 	return EXIT_SUCCESS;
+}//n
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+	int num,i,sum=0;
+	printf("Enter a number");
+	scanf("%d",&num);
+	for(i=1;i<=num;i++){
+		sum=num*i;
+		printf("%d * %d = %d\n", num, i, (num*i));
+
+
+	}
+	return EXIT_SUCCESS;
 }
